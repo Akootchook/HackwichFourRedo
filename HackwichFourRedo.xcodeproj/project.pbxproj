@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DFAD6FE25D8CF6200FFD952 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFAD6FD25D8CF6200FFD952 /* AppDelegate.swift */; };
+		7DFAD70025D8CF6200FFD952 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFAD6FF25D8CF6200FFD952 /* SceneDelegate.swift */; };
+		7DFAD70225D8CF6200FFD952 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFAD70125D8CF6200FFD952 /* ViewController.swift */; };
+		7DFAD70525D8CF6200FFD952 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DFAD70325D8CF6200FFD952 /* Main.storyboard */; };
+		7DFAD70725D8CF6400FFD952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DFAD70625D8CF6400FFD952 /* Assets.xcassets */; };
+		7DFAD70A25D8CF6400FFD952 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DFAD70825D8CF6400FFD952 /* LaunchScreen.storyboard */; };
+		7DFAD71525D8CF6500FFD952 /* HackwichFourRedoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFAD71425D8CF6500FFD952 /* HackwichFourRedoTests.swift */; };
+		7DFAD72025D8CF6500FFD952 /* HackwichFourRedoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFAD71F25D8CF6500FFD952 /* HackwichFourRedoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DFAD71125D8CF6500FFD952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DFAD6F225D8CF6200FFD952 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DFAD6F925D8CF6200FFD952;
+			remoteInfo = HackwichFourRedo;
+		};
+		7DFAD71C25D8CF6500FFD952 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DFAD6F225D8CF6200FFD952 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DFAD6F925D8CF6200FFD952;
+			remoteInfo = HackwichFourRedo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7DFAD6FA25D8CF6200FFD952 /* HackwichFourRedo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackwichFourRedo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DFAD6FD25D8CF6200FFD952 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7DFAD6FF25D8CF6200FFD952 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7DFAD70125D8CF6200FFD952 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7DFAD70425D8CF6200FFD952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DFAD70625D8CF6400FFD952 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DFAD70925D8CF6400FFD952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DFAD70B25D8CF6400FFD952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DFAD71025D8CF6500FFD952 /* HackwichFourRedoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackwichFourRedoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DFAD71425D8CF6500FFD952 /* HackwichFourRedoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwichFourRedoTests.swift; sourceTree = "<group>"; };
+		7DFAD71625D8CF6500FFD952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DFAD71B25D8CF6500FFD952 /* HackwichFourRedoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackwichFourRedoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DFAD71F25D8CF6500FFD952 /* HackwichFourRedoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwichFourRedoUITests.swift; sourceTree = "<group>"; };
+		7DFAD72125D8CF6500FFD952 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DFAD6F725D8CF6200FFD952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DFAD70D25D8CF6500FFD952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DFAD71825D8CF6500FFD952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DFAD6F125D8CF6200FFD952 = {
+			isa = PBXGroup;
+			children = (
+				7DFAD6FC25D8CF6200FFD952 /* HackwichFourRedo */,
+				7DFAD71325D8CF6500FFD952 /* HackwichFourRedoTests */,
+				7DFAD71E25D8CF6500FFD952 /* HackwichFourRedoUITests */,
+				7DFAD6FB25D8CF6200FFD952 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DFAD6FB25D8CF6200FFD952 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DFAD6FA25D8CF6200FFD952 /* HackwichFourRedo.app */,
+				7DFAD71025D8CF6500FFD952 /* HackwichFourRedoTests.xctest */,
+				7DFAD71B25D8CF6500FFD952 /* HackwichFourRedoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DFAD6FC25D8CF6200FFD952 /* HackwichFourRedo */ = {
+			isa = PBXGroup;
+			children = (
+				7DFAD6FD25D8CF6200FFD952 /* AppDelegate.swift */,
+				7DFAD6FF25D8CF6200FFD952 /* SceneDelegate.swift */,
+				7DFAD70125D8CF6200FFD952 /* ViewController.swift */,
+				7DFAD70325D8CF6200FFD952 /* Main.storyboard */,
+				7DFAD70625D8CF6400FFD952 /* Assets.xcassets */,
+				7DFAD70825D8CF6400FFD952 /* LaunchScreen.storyboard */,
+				7DFAD70B25D8CF6400FFD952 /* Info.plist */,
+			);
+			path = HackwichFourRedo;
+			sourceTree = "<group>";
+		};
+		7DFAD71325D8CF6500FFD952 /* HackwichFourRedoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DFAD71425D8CF6500FFD952 /* HackwichFourRedoTests.swift */,
+				7DFAD71625D8CF6500FFD952 /* Info.plist */,
+			);
+			path = HackwichFourRedoTests;
+			sourceTree = "<group>";
+		};
+		7DFAD71E25D8CF6500FFD952 /* HackwichFourRedoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7DFAD71F25D8CF6500FFD952 /* HackwichFourRedoUITests.swift */,
+				7DFAD72125D8CF6500FFD952 /* Info.plist */,
+			);
+			path = HackwichFourRedoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DFAD6F925D8CF6200FFD952 /* HackwichFourRedo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DFAD72425D8CF6500FFD952 /* Build configuration list for PBXNativeTarget "HackwichFourRedo" */;
+			buildPhases = (
+				7DFAD6F625D8CF6200FFD952 /* Sources */,
+				7DFAD6F725D8CF6200FFD952 /* Frameworks */,
+				7DFAD6F825D8CF6200FFD952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackwichFourRedo;
+			productName = HackwichFourRedo;
+			productReference = 7DFAD6FA25D8CF6200FFD952 /* HackwichFourRedo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DFAD70F25D8CF6500FFD952 /* HackwichFourRedoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DFAD72725D8CF6500FFD952 /* Build configuration list for PBXNativeTarget "HackwichFourRedoTests" */;
+			buildPhases = (
+				7DFAD70C25D8CF6500FFD952 /* Sources */,
+				7DFAD70D25D8CF6500FFD952 /* Frameworks */,
+				7DFAD70E25D8CF6500FFD952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DFAD71225D8CF6500FFD952 /* PBXTargetDependency */,
+			);
+			name = HackwichFourRedoTests;
+			productName = HackwichFourRedoTests;
+			productReference = 7DFAD71025D8CF6500FFD952 /* HackwichFourRedoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7DFAD71A25D8CF6500FFD952 /* HackwichFourRedoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DFAD72A25D8CF6500FFD952 /* Build configuration list for PBXNativeTarget "HackwichFourRedoUITests" */;
+			buildPhases = (
+				7DFAD71725D8CF6500FFD952 /* Sources */,
+				7DFAD71825D8CF6500FFD952 /* Frameworks */,
+				7DFAD71925D8CF6500FFD952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DFAD71D25D8CF6500FFD952 /* PBXTargetDependency */,
+			);
+			name = HackwichFourRedoUITests;
+			productName = HackwichFourRedoUITests;
+			productReference = 7DFAD71B25D8CF6500FFD952 /* HackwichFourRedoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DFAD6F225D8CF6200FFD952 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					7DFAD6F925D8CF6200FFD952 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					7DFAD70F25D8CF6500FFD952 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 7DFAD6F925D8CF6200FFD952;
+					};
+					7DFAD71A25D8CF6500FFD952 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 7DFAD6F925D8CF6200FFD952;
+					};
+				};
+			};
+			buildConfigurationList = 7DFAD6F525D8CF6200FFD952 /* Build configuration list for PBXProject "HackwichFourRedo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DFAD6F125D8CF6200FFD952;
+			productRefGroup = 7DFAD6FB25D8CF6200FFD952 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DFAD6F925D8CF6200FFD952 /* HackwichFourRedo */,
+				7DFAD70F25D8CF6500FFD952 /* HackwichFourRedoTests */,
+				7DFAD71A25D8CF6500FFD952 /* HackwichFourRedoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DFAD6F825D8CF6200FFD952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DFAD70A25D8CF6400FFD952 /* LaunchScreen.storyboard in Resources */,
+				7DFAD70725D8CF6400FFD952 /* Assets.xcassets in Resources */,
+				7DFAD70525D8CF6200FFD952 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DFAD70E25D8CF6500FFD952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DFAD71925D8CF6500FFD952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DFAD6F625D8CF6200FFD952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DFAD70225D8CF6200FFD952 /* ViewController.swift in Sources */,
+				7DFAD6FE25D8CF6200FFD952 /* AppDelegate.swift in Sources */,
+				7DFAD70025D8CF6200FFD952 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DFAD70C25D8CF6500FFD952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DFAD71525D8CF6500FFD952 /* HackwichFourRedoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DFAD71725D8CF6500FFD952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DFAD72025D8CF6500FFD952 /* HackwichFourRedoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DFAD71225D8CF6500FFD952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DFAD6F925D8CF6200FFD952 /* HackwichFourRedo */;
+			targetProxy = 7DFAD71125D8CF6500FFD952 /* PBXContainerItemProxy */;
+		};
+		7DFAD71D25D8CF6500FFD952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DFAD6F925D8CF6200FFD952 /* HackwichFourRedo */;
+			targetProxy = 7DFAD71C25D8CF6500FFD952 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7DFAD70325D8CF6200FFD952 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DFAD70425D8CF6200FFD952 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DFAD70825D8CF6400FFD952 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DFAD70925D8CF6400FFD952 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DFAD72225D8CF6500FFD952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7DFAD72325D8CF6500FFD952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DFAD72525D8CF6500FFD952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHBB8RSDC3;
+				INFOPLIST_FILE = HackwichFourRedo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uhwo.HackwichFourRedo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DFAD72625D8CF6500FFD952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHBB8RSDC3;
+				INFOPLIST_FILE = HackwichFourRedo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uhwo.HackwichFourRedo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7DFAD72825D8CF6500FFD952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHBB8RSDC3;
+				INFOPLIST_FILE = HackwichFourRedoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uhwo.HackwichFourRedoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackwichFourRedo.app/HackwichFourRedo";
+			};
+			name = Debug;
+		};
+		7DFAD72925D8CF6500FFD952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHBB8RSDC3;
+				INFOPLIST_FILE = HackwichFourRedoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uhwo.HackwichFourRedoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackwichFourRedo.app/HackwichFourRedo";
+			};
+			name = Release;
+		};
+		7DFAD72B25D8CF6500FFD952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHBB8RSDC3;
+				INFOPLIST_FILE = HackwichFourRedoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uhwo.HackwichFourRedoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HackwichFourRedo;
+			};
+			name = Debug;
+		};
+		7DFAD72C25D8CF6500FFD952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHBB8RSDC3;
+				INFOPLIST_FILE = HackwichFourRedoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uhwo.HackwichFourRedoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HackwichFourRedo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DFAD6F525D8CF6200FFD952 /* Build configuration list for PBXProject "HackwichFourRedo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DFAD72225D8CF6500FFD952 /* Debug */,
+				7DFAD72325D8CF6500FFD952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DFAD72425D8CF6500FFD952 /* Build configuration list for PBXNativeTarget "HackwichFourRedo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DFAD72525D8CF6500FFD952 /* Debug */,
+				7DFAD72625D8CF6500FFD952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DFAD72725D8CF6500FFD952 /* Build configuration list for PBXNativeTarget "HackwichFourRedoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DFAD72825D8CF6500FFD952 /* Debug */,
+				7DFAD72925D8CF6500FFD952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DFAD72A25D8CF6500FFD952 /* Build configuration list for PBXNativeTarget "HackwichFourRedoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DFAD72B25D8CF6500FFD952 /* Debug */,
+				7DFAD72C25D8CF6500FFD952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DFAD6F225D8CF6200FFD952 /* Project object */;
+}
