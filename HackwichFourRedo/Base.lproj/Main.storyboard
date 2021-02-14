@@ -76,6 +76,7 @@
                     <connections>
                         <segue destination="Deq-71-Ksu" kind="relationship" relationship="viewControllers" id="jRh-1d-IjQ"/>
                         <segue destination="EQt-0R-77A" kind="relationship" relationship="viewControllers" id="ybP-Du-tBe"/>
+                        <segue destination="p5w-5g-PbZ" kind="relationship" relationship="viewControllers" id="J0a-6i-K8n"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JON-ZA-phH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -101,11 +102,11 @@
             </objects>
             <point key="canvasLocation" x="402.89855072463769" y="-272.54464285714283"/>
         </scene>
-        <!--Item 2-->
+        <!--My Classes-->
         <scene sceneID="PZd-fl-WSt">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="EQt-0R-77A" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 2" id="ffx-CJ-aJc"/>
+                    <tabBarItem key="tabBarItem" title="My Classes" id="ffx-CJ-aJc"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="2YK-ug-ILQ">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -120,8 +121,26 @@
             </objects>
             <point key="canvasLocation" x="402.89855072463769" y="434.59821428571428"/>
         </scene>
+        <!--My Favorite Foods-->
+        <scene sceneID="vq6-E6-uU2">
+            <objects>
+                <viewController id="p5w-5g-PbZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Q8p-f2-F2Z">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="nSF-xk-s1u"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="My Favorite Foods" image="icons8-halal_food" id="CW3-1a-OZ5"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aFj-wP-Fdk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="383" y="1150"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="icons8-halal_food" width="32" height="32"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

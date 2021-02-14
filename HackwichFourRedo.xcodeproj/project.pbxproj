@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D35A39825D8DF6200771D84 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D35A39725D8DF6200771D84 /* thirdViewController.swift */; };
 		7DFAD6FE25D8CF6200FFD952 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFAD6FD25D8CF6200FFD952 /* AppDelegate.swift */; };
 		7DFAD70025D8CF6200FFD952 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFAD6FF25D8CF6200FFD952 /* SceneDelegate.swift */; };
 		7DFAD70225D8CF6200FFD952 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFAD70125D8CF6200FFD952 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D35A39725D8DF6200771D84 /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
 		7DFAD6FA25D8CF6200FFD952 /* HackwichFourRedo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackwichFourRedo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DFAD6FD25D8CF6200FFD952 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DFAD6FF25D8CF6200FFD952 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				7DFAD6FF25D8CF6200FFD952 /* SceneDelegate.swift */,
 				7DFAD70125D8CF6200FFD952 /* ViewController.swift */,
 				7DFAD70325D8CF6200FFD952 /* Main.storyboard */,
+				7D35A39725D8DF6200771D84 /* thirdViewController.swift */,
 				7DFAD73025D8D35600FFD952 /* secondViewController.swift */,
 				7DFAD70625D8CF6400FFD952 /* Assets.xcassets */,
 				7DFAD70825D8CF6400FFD952 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			files = (
 				7DFAD73125D8D35600FFD952 /* secondViewController.swift in Sources */,
 				7DFAD70225D8CF6200FFD952 /* ViewController.swift in Sources */,
+				7D35A39825D8DF6200771D84 /* thirdViewController.swift in Sources */,
 				7DFAD6FE25D8CF6200FFD952 /* AppDelegate.swift in Sources */,
 				7DFAD70025D8CF6200FFD952 /* SceneDelegate.swift in Sources */,
 			);
